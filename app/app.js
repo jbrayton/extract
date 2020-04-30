@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const mercury = require("@postlight/mercury-parser");
+const mercury = require("mercury-parser");
 const validator = require("./validator");
 
 function decodeURL(encodedURL) {
